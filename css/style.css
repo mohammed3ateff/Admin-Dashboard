@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+/* start Container */
+/* .container {
+  background-color: aqua;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 270px repeat(4, auto);
+  grid-template-rows: 110px repeat(4, auto);
+} */
+/* End Container */
+/* Start A-Side */
+/* .side-bar {
+  background-color: hsl(201deg 79% 46%);
+  grid-area: 1 / 1 / 7 / 2; 
+  padding: 15px;
+  color: white;
+  box-shadow: 1px 1px 1px red; 
+} 
+.logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.view-dashboard {
+  width: 40px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+h3 {
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+} 
+.side-bar .nav,
+.side-bar .setting {
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+.side-bar i {
+  padding: 7px 15px;
+  cursor: pointer;
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+}
+.side-bar span {
+  cursor: pointer;
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+}
+
+.side-bar i:hover > span {
+  border-bottom: 1px solid rgb(10, 70, 102);
+}
+.side-bar i:hover,
+.side-bar span:hover {
+  transform: scale(120%);
+  -webkit-transform: scale(120%);
+  -moz-transform: scale(120%);
+  -ms-transform: scale(120%);
+  -o-transform: scale(120%);
+  color: rgb(10, 70, 102);
+} */
+
+/* End A-Side */
+/* Start nav */
+
+/* nav {
+  background-color: white;
+  grid-area: 1 / 2 / 2 / 6;
+} */
+/* End nav */
+/* Start main */
+/* main {
+  background-color: hsl(214deg 32% 91%);
+  grid-area: 2 / 2 / 7 / 6;
+  font-size: 100px;
+} */
+/* End main */

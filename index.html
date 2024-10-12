@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin-Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+  <div class=" grid grid-cols-5 grid-rows-5  bg-orange-200 h-svh	w-full">
+    <aside class="side-bar  col-span-1 row-span-6 p-5 bg-sky-500 text-white  " id="side-bar">
+      <div class="logo flex items-center	mb-7		"  id="logo">
+        <img src="/imgs/view-dashboard.svg" alt="view-dashboard" class="view-dashboard w-10 mr-2 		">
+        <h3 class="logo-text text-2xl 		">Dashboard</h3>
+      </div>
+      <div class="nav mb-7 text-sm	" id="nav">
+        <div class="home">
+          <i class="fa-solid fa-house py-1.5 px-3.5	hover:text-sky-700 cursor-pointer 	 	"></i>
+          <span class="hover:text-sky-700 hover:border-b-2 border-sky-800	cursor-pointer	">Home</span>
+        </div>
+        <div class="profile">
+          <i class="fa-regular fa-address-card py-1.5 px-3.5 hover:text-sky-700 cursor-pointer		"></i>
+          <span class="hover:text-sky-700 cursor-pointer hover:border-b-2 border-sky-800	">Profile</span>
+        </div>
+        <div class="messages ">
+          <i class="fa-solid fa-message py-1.5 px-3.5 hover:text-sky-700 cursor-pointer	"></i>
+          <span class="hover:text-sky-700 cursor-pointer hover:border-b-2 border-sky-800	">Messages</span>
+        </div>
+        <div class="history">
+          <i class="fa-solid fa-clock py-1.5 px-3.5 hover:text-sky-700 cursor-pointer	"></i>
+          <span class="hover:text-sky-700 cursor-pointer hover:border-b-2 border-sky-800	">History</span>
+        </div>
+        <div class="tasks">
+          <i class="fa-solid fa-bars-progress py-1.5 px-3.5 hover:text-sky-700 cursor-pointer	"></i>
+          <span class="hover:text-sky-700 cursor-pointer hover:border-b-2 border-sky-800	">Tasks</span>
+        </div>
+        <div class="communities">
+          <i class="fa-solid fa-users py-1.5 px-3.5 hover:text-sky-700 cursor-pointer	"></i>
+          <span class="hover:text-sky-700 cursor-pointer hover:border-b-2 border-sky-800	">Communities</span>
+        </div>
+      </div>
+      <div class="setting text-sm" id="setting">
+        <div class="settings">
+          <i class="fa-solid fa-gear py-1.5 px-3.5 hover:text-sky-700 cursor-pointer	"></i>
+          <span class="hover:text-sky-700 cursor-pointer hover:border-b-2 border-sky-800	">Setting</span>
+        </div>
+        <div class="support">
+          <i class="fa-regular fa-circle-question py-1.5 px-3.5 hover:text-sky-700 cursor-pointer	"></i>
+          <span class="hover:text-sky-700 cursor-pointer hover:border-b-2 border-sky-800	">Support</span>
+        </div>
+        <div class="privacy">
+          <i class="fa-solid fa-lock py-1.5 px-3.5 hover:text-sky-700 cursor-pointer	"></i>
+          <span class="hover:text-sky-700 cursor-pointer hover:border-b-2 border-sky-800	">Privacy</span>
+        </div>
+      </div>
+    </aside>
+    <header class="h-36	 py-3.5 px-2 bg-white	 col-start-2	col-end-6	row-start-1 row-end-2">
+      <nav class=" flex justify-between	items-center">
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass px-5 "></i>
+          <input type="text" name="search" id="search" class="min-w-10	w-96	 rounded-xl	bg-slate-300	">
+        </div>
+        <div class="mr-3.5 flex justify-between items-center  	">
+          <i class="fa-solid fa-bell text-lg mr-5	"></i>
+          <i class="fa-solid fa-circle-user text-4xl mr-5 text-orange-600        " ></i>
+          <span class="text-lg ">Mohammed Atef</span>
+        </div>
+      </nav>
+      <div class="user flex  justify-between	items-center ml-5 mt-4 mr-5">
+        <div class="user-name flex items-center ">
+          <i class="fa-solid fa-circle-user text-6xl mr-2.5 text-orange-600        " ></i>
+          <div>
+            <span class="text-sm			">Hi there,</span>
+            <h2 class="text-2xl	">Mohammed Atef (@tefa)</h2>
+          </div>
+        </div>
+        <div>
+          <button class="bg-sky-500 text-white px-7 py-2 mr-4 rounded-xl">New</button>
+          <button class="bg-sky-500 text-white px-7 py-2 mr-4 rounded-xl">Upload</button>
+          <button class="bg-sky-500 text-white px-7 py-2 rounded-xl">Share</button>
+        </div>
+      </div>
+      <div class="user"></div>
+    </header>
+
+    <main></main>
+  </div>
+</body>
+</html>
